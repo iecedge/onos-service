@@ -15,6 +15,7 @@
 
 
 name: onos
+core_version: ">=2.2.1"
 required_models:
   - ONOSService
   - ONOSApp
@@ -22,6 +23,7 @@ dependency_graph: "/opt/xos/synchronizers/onos/model-deps"
 steps_dir: "/opt/xos/synchronizers/onos/steps"
 sys_dir: "/opt/xos/synchronizers/onos/sys"
 models_dir: "/opt/xos/synchronizers/onos/models"
+event_steps_dir: "/opt/xos/synchronizers/onos/event_steps"
 logging:
   version: 1
   handlers:
